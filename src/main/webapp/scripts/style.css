@@ -1,0 +1,122 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0;
+	padding: 0;
+	}
+	
+#banner {
+	background-image: url("bannerAsk.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;
+	}
+	
+nav {
+	margin-top: -3px;
+	margin-bottom: 10px;
+	}
+	
+.table {
+	border: 3px solid black;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 15px;
+	padding-bottom: 25px;
+	}
+
+#hrLogin1 {
+	border: 1px solid black;
+	width: 65%;
+	margin: auto;
+	}
+
+h2 {
+	font-family: Arial;
+	}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #222222;
+	height: 48px;
+	margin-top: 20px;
+	}
+
+#logo {
+	margin-top: 10px;
+	margin-left: 16px;
+	height: 30px;
+	width: auto;
+	}
+
+.homeText1 {
+	font-family: Arial;
+	margin-top: 80px;
+	text-align: center;
+	}
+	
+#hrHome1 {
+	border: 1px solid black;
+	width: 25%;
+	margin: auto;
+	}
+	
+#createForms {
+	font-family: Arial;
+	font-size: 48px;
+	}
+	
+#createConnections {
+	font-family: Arial;
+	font-size: 28px;
+	margin-top:10px
+	}
+	
+.btn {
+    background-color: #222222;
+	border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    }
+
+.btn:hover { 
+	background-color: white;
+    border: none;
+    color: black;
+    border: 1px solid #222222;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    }
+    
+.ab3 {
+	font: 12px Arial;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    color: #222222;
+    opacity: 0.67;
+    }
+
+.ab3:hover {
+	font: 12px Arial;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	color: #000000;
+	opacity: 1;
+    }
+    
+.thanks {
+	font-family: Arial;
+}

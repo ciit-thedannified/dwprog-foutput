@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+
+    <context-param>
+        <param-name>app-name</param-name>
+        <param-value>Ask Away</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>db-username</param-name>
+        <param-value>root</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>db-password</param-name>
+        <param-value>Danne is the only admin.</param-value>
+    </context-param>
+
+    <listener>
+        <listener-class>ciit.dwprog.foutput.util.StartupListener</listener-class>
+    </listener>
+    
+</web-app>
