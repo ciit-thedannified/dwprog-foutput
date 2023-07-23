@@ -334,7 +334,7 @@
             if (selectedType === "checkbox" || selectedType === "radioGroup") {
                 var addOptionButton = document.createElement("button");
                 addOptionButton.type = "button";
-                addOptionButton.textContent = "Add Option";	
+                addOptionButton.textContent = "Add Options";
                 addOptionButton.className = "ob";
                 addOptionButton.onclick = function () {
                     addOption(inputFieldsDiv, selectedType);
@@ -351,7 +351,7 @@
             var newOptionLabel = document.createElement("label");
             newOptionLabel.setAttribute("for", optionType + optionCount);
             newOptionLabel.className="ab2";
-            newOptionLabel.textContent = "Option " + optionCount + ":";
+            newOptionLabel.textContent = "Options " + optionCount + ":";
 
             var newOptionInput = document.createElement("input");
             newOptionInput.setAttribute("type", "text");

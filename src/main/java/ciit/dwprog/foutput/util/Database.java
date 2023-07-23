@@ -76,6 +76,25 @@ public class Database {
         return d;
     }
 
+    public static Response[] getResponse(int id) throws SQLException {
+        Connection connection = getInstance();
+
+        PreparedStatement ps = connection.prepareStatement("SELECT response FROM survey_responses WHERE response_id = ?");
+        ps.setInt(1, id);
+
+        ResultSet rs = ps.executeQuery();
+
+        rs.next();
+        String d = rs.getString("questions");
+
+        ps.close();
+        rs.close();
+
+        Gson g = new Gson();
+
+        return g.fromJson(d, Response[].class);
+    }
+
     public static int updateSurvey(int id, String json) throws SQLException {
         Connection connection = getInstance();
 
